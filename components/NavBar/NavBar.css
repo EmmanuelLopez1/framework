@@ -1,0 +1,64 @@
+@import url(../../_vars.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size:16px;
+}
+
+.nav {
+  background-color: var(--purple-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1.25em 1.875em;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-text{
+    margin-left:1.25em;
+}
+
+.nav-title{
+    margin: 0;
+    font-family: Pundak;
+    font-size:3.4375rem;
+    letter-spacing:2px;
+    color: var(--light);
+    -webkit-text-stroke: 1px var(--dark);
+}
+
+.nav-subtitle{
+    font-family:Pundak;
+    font-size:1.875rem;
+    margin: 0;
+    color: var(--light);
+    -webkit-text-stroke: 1px var(--dark);
+}
+
+.nav-logo-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 70%;
+  border: 10px solid var(--yellow-primary);
+  box-shadow: 8px 0px 0px 0px var(--dark-rgba);
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    width:30%;
+    justify-content: space-between;
+}
+
+.menu-item{
+    font-family: HomeSchool;
+    font-size:30px;
+    color:var(--yellow-primary);
+    text-decoration: none;
+    text-shadow: 5px 5px  var(--dark);
+}
