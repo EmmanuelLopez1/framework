@@ -1,0 +1,40 @@
+:root {
+  /* COLORS */
+
+  /* PINK */
+  --pink-primary: #be2596;
+
+  /* PURPLE */
+  --purple-primary: #4e0f57;
+
+  /* YELLOW */
+  --yellow-primary: #eae001;
+
+  /* WHITE */
+  --light: #fff;
+
+  --orange: #ff8d00;
+  --purple: #8b1ac3;
+  --blue: #0676cf;
+  --blue-light: #2596be;
+  --red: #e80400;
+  --green: #a0db1f;
+  --salmon: #f2e1bb;
+  --dark: black;
+
+  /* RGBA */
+  --dark-rgba: rgb(0, 0, 0);
+
+  /* FONTS */
+  --Home-School: HomeSchool;
+}
+
+@font-face {
+  font-family: HomeSchool;
+  src: url(../../fonts/home-school/Home\ School.otf) format("truetype");
+}
+
+@font-face {
+  font-family: Pundak;
+  src: url(./fonts/dk-pundak/DK\ Pundak.otf) format("truetype");
+}
