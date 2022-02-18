@@ -684,12 +684,32 @@ h6 {
   font-weight: 600;
 }
 
-.font-title {
+.text-title {
   font-family: var(--font-title);
 }
 
-.font-text {
+.text-parraf {
   font-family: var(--font-text);
+}
+
+.text-xs {
+  font-size: 0.75em;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875em;
+  line-height: 1.25em;
+}
+
+.text-base {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.text-md {
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .m-0 {
@@ -750,8 +770,8 @@ h6 {
 /*
     *   COLORS  *
 */
-.bg-primary {
-  background-color: var(--primary);
+.bg-thir {
+  background-color: var(--thir);
 }
 
 .bg-secondary {

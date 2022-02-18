@@ -576,12 +576,32 @@ h6 {
   font-weight: 600;
 }
 
-.font-title{
-    font-family: var(--font-title);
+.text-title {
+  font-family: var(--font-title);
 }
 
-.font-text{
-    font-family: var(--font-text)
+.text-parraf {
+  font-family: var(--font-text);
+}
+
+.text-xs {
+  font-size: 0.75em;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875em;
+  line-height: 1.25em;
+}
+
+.text-base{
+  font-size:1em;
+  line-height:1.5em;
+}
+
+.text-md{
+  font-size: 1.5em;
+  line-height:1.5em;
 }
 
 // HELPERS
@@ -649,20 +669,20 @@ h6 {
 */
 
 .bg-thir {
-    background-color:var(--thir)
+  background-color: var(--thir);
 }
 
 .bg-secondary {
-    background-color:var(--secondary)
+  background-color: var(--secondary);
 }
 .bg-third {
-    background-color:var(--third)
+  background-color: var(--third);
 }
 .bg-light {
-    background-color:var(--light)
+  background-color: var(--light);
 }
 .bg-dark {
-    background-color:var(--dark)
+  background-color: var(--dark);
 }
 /*
     *BACKGROUND*
@@ -672,8 +692,10 @@ h6 {
   background-color: var(--bg-blue);
 }
 
-
 // WIDTHS
-.w-10{
-    width:10%;
+.w-10 {
+  width: 10%;
 }
+
+
+
