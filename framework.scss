@@ -167,7 +167,7 @@ body {
   font-size: 16px;
 }
 
-.img {
+img {
   display: block;
   width: 100%;
 }
@@ -576,11 +576,11 @@ h6 {
   font-weight: 600;
 }
 
-.f-title{
+.font-title{
     font-family: var(--font-title);
 }
 
-.f-text{
+.font-text{
     font-family: var(--font-text)
 }
 
@@ -648,10 +648,32 @@ h6 {
     *   COLORS  *
 */
 
+.bg-thir {
+    background-color:var(--thir)
+}
+
+.bg-secondary {
+    background-color:var(--secondary)
+}
+.bg-third {
+    background-color:var(--third)
+}
+.bg-light {
+    background-color:var(--light)
+}
+.bg-dark {
+    background-color:var(--dark)
+}
 /*
     *BACKGROUND*
 */
 
 .bg-blue {
   background-color: var(--bg-blue);
+}
+
+
+// WIDTHS
+.w-10{
+    width:10%;
 }
