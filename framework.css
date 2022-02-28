@@ -204,6 +204,10 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*
     *CONTAINERS*
 */
@@ -670,6 +674,67 @@ img {
 /*
     *COMPONENTS*
 */
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.navbar-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  border-top: 1px solid var(--light);
+}
+
+.navbar-menu-item {
+  color: var(--light);
+  padding: 12px 20px;
+}
+
+.navbar-menu-item:hover {
+  background-color: var(--third);
+  padding-left: 30px;
+  transition: padding-left 1s;
+}
+
+.burger-menu:hover {
+  cursor: pointer;
+}
+
+.burger-menu-check:checked ~ .navbar-menu {
+  display: none;
+  transition: all 2s;
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 20px 15px;
+    justify-content: space-between;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .navbar-menu {
+    width: auto;
+    display: block;
+    position: static;
+    border: none;
+    flex-direction: row;
+  }
+
+  .navbar-menu-item:hover {
+    padding: 8px 20px;
+  }
+}
 /*
     * FUENTES *
 */
@@ -710,6 +775,35 @@ h6 {
 .text-md {
   font-size: 1.5em;
   line-height: 1.5em;
+}
+
+.text-lg {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+.text-600 {
+  font-weight: 600;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-third {
+  color: var(--third);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-dark {
+  color: var(--dark);
 }
 
 .m-0 {
@@ -759,19 +853,31 @@ h6 {
   width: 50px;
 }
 
+.w-10 {
+  width: 10%;
+}
+
 .h-1 {
   height: 50px;
+}
+
+.h-10 {
+  height: 10%;
 }
 
 .block {
   display: block;
 }
 
+.d-none {
+  display: none;
+}
+
 /*
     *   COLORS  *
 */
-.bg-thir {
-  background-color: var(--thir);
+.bg-primary {
+  background-color: var(--primary);
 }
 
 .bg-secondary {
@@ -790,6 +896,26 @@ h6 {
   background-color: var(--dark);
 }
 
+.svg-primary {
+  fill: var(--primary);
+}
+
+.svg-secondary {
+  fill: var(--secondary);
+}
+
+.svg-third {
+  fill: var(--third);
+}
+
+.svg-light {
+  fill: var(--light);
+}
+
+.svg-dark {
+  fill: var(--dark);
+}
+
 /*
     *BACKGROUND*
 */
@@ -797,8 +923,11 @@ h6 {
   background-color: var(--bg-blue);
 }
 
-.w-10 {
-  width: 10%;
+/*  
+  * BORDERS *  
+*/
+.rounded-100 {
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=framework.css.map */

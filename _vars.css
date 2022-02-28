@@ -11,6 +11,11 @@
   --light:#e5eaf5;
   --dark:#1e1e5d;
 
+/* TAMANOS DE PANTALLA */
+  --tablet-size:768px;
+  --desktop-size:1024px;
+  --desktop-size-large:1320px;
+
 
 /*  *FONTS*  */
   --font-title:'Source Serif 4', sans-serif;
