@@ -1,0 +1,5 @@
+@import url(./_vars-cartoon.css);
+
+.bg-primary-toon{
+    background-color: var(--primary-toon);
+}

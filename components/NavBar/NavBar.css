@@ -1,4 +1,6 @@
+@import url(../../framework.css);
 @import url(../../_vars-cartoon.css);
+@import url(../../template-carton.css);
 
 body {
   margin: 0;
@@ -7,10 +9,6 @@ body {
 }
 
 .nav {
-  background-color: var(--purple-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding:1.25em 1.875em;
 }
 
@@ -25,7 +23,7 @@ body {
 .nav-title{
     margin: 0;
     font-family: Pundak;
-    font-size:3.4375rem;
+    font-size:40px;
     letter-spacing:2px;
     color: var(--light);
     -webkit-text-stroke: 1px var(--dark);
@@ -40,11 +38,11 @@ body {
 }
 
 .nav-logo-img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   display: block;
   border-radius: 70%;
-  border: 10px solid var(--yellow-primary);
+  border: 5px solid var(--yellow-primary);
   box-shadow: 8px 0px 0px 0px var(--dark-rgba);
 }
 
